@@ -1,0 +1,50 @@
+.header {
+  background-image: url("../../assets/ListProject/img/home-img.jpg");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header__overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.header__navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.main__menu {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  overflow: hidden;
+}
+
+.main__menu > a {
+  text-align: left;
+  display: block;
+  padding: 16px 50px 16px 20px;
+  transition: all 0.25s linear;
+  border-bottom: 1px solid #ddd;
+}
+
+.main__menu > a:last-child {
+  border: none;
+}
+
+.main__menu > a:hover {
+  background: #b4320c;
+  color: aliceblue;
+  padding-left: 25px;
+}

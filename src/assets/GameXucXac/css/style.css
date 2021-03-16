@@ -1,0 +1,71 @@
+@font-face {
+  font-family: fontGameXucXac;
+  src: url("../fonts/Pony.ttf");
+}
+
+.wrapper {
+  background-image: url("../img/bgGame.png");
+  height: 100vh;
+  background-size: contain;
+}
+
+.block__bet button {
+  outline: none;
+  border: none;
+  color: #fff;
+  width: 250px;
+  height: 250px;
+  font-size: 80px;
+  font-family: fontGameXucXac;
+  border-radius: 10px;
+}
+
+.block__bet .tai {
+  background: #f34646;
+}
+
+.block__bet .tai:focus {
+  background: #b91643;
+}
+
+.block__bet .xiu {
+  background: #272020;
+}
+
+.block__bet .xiu:focus {
+  background: #443f3f;
+}
+
+.result__game {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.result__game-img img {
+  display: inline-block;
+  width: 80px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.result__game .result__game-info p,
+.result__game .result__game-info span {
+  font-family: fontGameXucXac;
+  font-size: 50px;
+  margin: 30px 0;
+  text-shadow: 0px 10px 8px #333;
+}
+
+.result__game .result__game-info button {
+  font-family: fontGameXucXac;
+}
+
+.showScore,
+.showScore span {
+  font-size: 30px;
+  margin-top: 40px;
+  font-family: fontGameXucXac;
+}
