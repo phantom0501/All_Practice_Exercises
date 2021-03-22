@@ -14,7 +14,7 @@ class Header extends Component {
     );
 
     return (
-      <section className="header bg-dark">
+      <section className="header__layout bg-dark">
         <nav className="container navbar__item__main navbar navbar-expand-sm navbar-dark">
           <div className="navbar__logo__search">
             <NavLink className="navbar-brand navbar__logo" to="/">

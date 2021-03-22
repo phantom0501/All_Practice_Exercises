@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import '../../assets/ListProject/ListProject.css';
+import "../../assets/ListProject/ListProject.css";
 
 export default class ListProject extends Component {
   render() {
@@ -39,12 +39,13 @@ export default class ListProject extends Component {
                     href="#####"
                     id="dropdownId"
                     data-toggle="dropdown"
-                    // aria-haspopup="true"
-                    // aria-expanded="false"
                   >
                     Lessons
                   </a>
-                  <div className="dropdown-menu main__menu" aria-labelledby="dropdownId">
+                  <div
+                    className="dropdown-menu main__menu"
+                    aria-labelledby="dropdownId"
+                  >
                     <NavLink className="dropdown-item" to="/demolayout">
                       Layout Simple
                     </NavLink>
