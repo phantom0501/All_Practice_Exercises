@@ -1,4 +1,3 @@
-// import logo from "./logo.svg";
 import "./App.css";
 import DemoLayout from "./LayoutExercise/DemoLayout.jsx";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
